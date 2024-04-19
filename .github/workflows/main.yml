@@ -74,7 +74,7 @@ jobs:
           cat .custom_env >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
-          repository: 'Fuzion24/JustTrustMe'
+          repository: 'banik-123/KS_JustTrustMe'
       - name: set up JDK 1.11
         uses: actions/setup-java@v1
         with:
