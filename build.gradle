@@ -2,7 +2,9 @@
 
 buildscript {
     repositories {
-        google()
+             maven{ url'http://maven.aliyun.com/nexus/content/groups/public/' }
+        jcenter { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven{ url 'http://maven.aliyun.com/nexus/content/repositories/central/'}
 	jcenter()
     }
     dependencies {
